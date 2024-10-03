@@ -11,13 +11,13 @@ The toolbox needs the following Python packages in order to work properly:
 * [Matplotlib](http://matplotlib.org/)
 * [Pillow (PIL)](https://python-pillow.org/)
 
-pyShearLab2D has been developed and tested with Python 3.6 using the Anaconda package on Linux (Ubuntu 16.04.2 LTS), Windows 10 and Mac OS X (10.11-10.12). There are issues when using pyShearLab2d with Python 2.X.
+pyShearLab2D has been developed and tested with Python 3.11 using the Anaconda package on Linux (Ubuntu 22.04 LTS). There are issues when using pyShearLab2d with Python 2.X.
 
 ## Installation
 You can simply download, unzip and use pyShearLab. Depending on your specific Python development environment, you may want to add the pyShearLab2D folder to your Python environment (Python Path). The dependencies can be installed using pip. If you use Anaconda, they are already installed.
 A pip package is currently _not_ available, but the package can be installed straight from github via:
 
-    pip install https://github.com/stefanloock/pyshearlab/archive/master.zip
+    pip install https://github.com/misc4747/pyshearlab/archive/master.zip
 
 ## Usage
 In order to use pyShearLab you need to import it as a module, see pySLExampleDenoising.py as an example. The denoising example 
