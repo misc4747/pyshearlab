@@ -3,6 +3,9 @@ pyShearLab is a Python toolbox which is based on [ShearLab3D](http://www3.math.t
 
 Currently, pyShearLab only offers a two-dimensional subset of ShearLab3D which contains both 2D and 3D transforms.
 
+## Updates by misc4747
+This repository has been updated by misc4747 to ensure compatibility with the latest versions of SciPy and NumPy.
+
 ## Dependencies
 The toolbox needs the following Python packages in order to work properly:
 
