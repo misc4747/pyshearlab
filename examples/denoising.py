@@ -16,7 +16,7 @@ from scipy import ndimage as img
 from scipy import io as sio
 import matplotlib.pyplot as plt
 import pyshearlab
-
+from PIL import Image
 tic()
 print("--SLExampleImageDenoising")
 print("loading image...")
@@ -26,7 +26,8 @@ scales = 3
 thresholdingFactor = 3
 
 # load data
-X = img.imread("barbara.jpg")[::4, ::4]
+with Image.open("barbara.jpg") as img:
+    X = np.array(img)[::4, ::4]
 X = X.astype(float)
 
 # add noise
